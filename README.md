@@ -4,6 +4,8 @@ The calculation is done following the recipe provided in Vannesjo et al MRM 2013
 You may look at the demo script, `skope_girf.m`, to grab an idea of how this toolkit can be used to calculate girf provided the Skope data and the .seq file (defining the input gradients). 
 * NOTE: The .kspha file (for the corresponding Skope data) is too large to upload to github.
 
+Once the GIRFs have been calculated, you may also use them to predict high order dynamic field changes given the nominal gradient waveforms. You may look at the demo script, `skope_girf_prediction.m`, to have an idea of how to do that. 
+
 ### Copyright & License Notice
 This software is copyrighted by the Regents of the University of Minnesota. It can be freely used for educational and research purposes by non-profit institutions and US government agencies only. 
 Other organizations are allowed to use this software only for evaluation purposes, and any further uses will require prior approval. The software may not be sold or redistributed without prior approval. 
