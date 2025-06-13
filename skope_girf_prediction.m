@@ -4,6 +4,8 @@
 % assuming skope_girf.m has been run to calculate GIRFs. 
 %
 % created by Xiaoping Wu, 1/11/2023
+%
+% this is a copy of what is under ~/Siemens105T_2/session_20230320*/
 
 clearvars;
 
