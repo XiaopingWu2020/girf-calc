@@ -202,7 +202,8 @@ gflat= amp*ones(1,ntflat);
 % fall
 ntfall= round(fall./dt);
 ampinc= amp./ ntfall;
-gfall= amp:-ampinc:ampinc;
+% gfall= amp:-ampinc:ampinc; % both grise and gfall contain the same point at amp, which is repeated twice.
+gfall= (amp-ampinc):-ampinc:ampinc; % remove the repeated point.
 % delay
 ntdelay= round(delay./dt);
 
