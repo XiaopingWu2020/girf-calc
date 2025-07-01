@@ -17,7 +17,7 @@ myseq= mr.Sequence();
 myseq.read(seqfile);
 
 scanId= 23;
-fn = 'GIRFs_demo';
+fn = 'GIRFs_105T'; 
 
 scan = AqSysData(fieldDataFolder,scanId);
 
@@ -25,7 +25,7 @@ scan = AqSysData(fieldDataFolder,scanId);
 save(fn, 'Hw', 'freqs');
 
 %% plot GIRFs
-girfs= load('GIRFs_demo.mat');
+girfs= load(fn);
 myaxis= {[-3 3 0 0.01],[-3 3 0 1.2],[-3 3 0 0.01],[-3 3 0 0.1],[-3 3 0 0.5]};
 plotGIRFs(girfs,myaxis);
 
