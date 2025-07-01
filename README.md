@@ -2,7 +2,7 @@
 A matlab toolkit for gradient impulse response function (girf) calculation based on field monitoring data obtained using a field camera (Skope MRT) and a pulse sequence developed in pulseq (Layton et al MRM 2017).  
 The calculation is done following the recipe provided in Vannesjo et al MRM 2013. The toolkit relies on the matlab I/O interface provided by Skope and the matlab open-source pulseq. 
 You may look at the demo script, `skope_girf.m`, to grab an idea of how this toolkit can be used to calculate girf provided the Skope data and the .seq file (defining the input gradients). 
-* NOTE: The .kspha file (for the corresponding Skope data) is too large to upload to github.
+* NOTE: The .kspha file (for the corresponding Skope data) which is too large to upload to github can be downloaded at https://drive.google.com/drive/folders/1vx3hFQPuN6MJzCqMG6P-GcnzaACABsWf?usp=sharing.
 
 Once the GIRFs have been calculated, you may also use them to predict high order dynamic field changes given the nominal gradient waveforms. You may look at the demo script, `skope_girf_prediction.m`, to have an idea of how to do that. 
 
