@@ -33,7 +33,7 @@ gradin0.t_vec= (1: size(grad0.shape,2)).* grad0.dt;
 gradin0.dt= grad0.dt;
 %% predict gradient
 %load GIRFs.mat % load in Hw and freqs
-load GIRFs_demo.mat;
+load GIRFs_105T.mat;
 ot= predictOutputFromGIRFs(gradin0.shape,Hw); % this gradient seemed to be too long to predict?
 fieldpred0.bfield= ot;
 fieldpred0.t_vec= gradin0.t_vec;
