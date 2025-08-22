@@ -6,6 +6,10 @@ You may look at the demo script, `skope_girf.m`, to grab an idea of how this too
 
 Once the GIRFs have been calculated, you may also use them to predict high order dynamic field changes given the nominal gradient waveforms. You may look at the demo script, `skope_girf_prediction.m`, to have an idea of how to do that. 
 
+If you use the toolbox, please consider citing the following paper:
+
+Jinyuan Zhang, Zihao Zhang*, Zhentao Zuo, Rong Xue, Yan Zhuo, Cameron Cushing, Alexander Bratch, Edward Auerbach, Andrea Grant, Jing An, Kamil Ugurbil, Xiaoping Wu. "Data stitching for dynamic field monitoring with NMR probes", MRM, under review.
+
 ### Copyright & License Notice
 This software is copyrighted by the Regents of the University of Minnesota. It can be freely used for educational and research purposes by non-profit institutions and US government agencies only. 
 Other organizations are allowed to use this software only for evaluation purposes, and any further uses will require prior approval. The software may not be sold or redistributed without prior approval. 
